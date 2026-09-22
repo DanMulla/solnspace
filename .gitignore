@@ -1,0 +1,31 @@
+# --- operating system ---
+.DS_Store
+Thumbs.db
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- MATLAB ---
+*.asv
+*.m~
+slprj/
+
+# Extras
+checks/*/outputs/
+checks/reserves/figures/
+figures/
+extras/
+outputs/
+
+# --- Third-party -------------------------------------------------------------
+# PolytopeSamplerMatlab is GPL-3.0 and is not redistributed here. Clone it from
+# the upstream repository; see the README.
+PolytopeSamplerMatlab/

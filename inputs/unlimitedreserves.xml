@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<ForceSet name="WuShoulder">
+		<objects>
+			<CoordinateActuator name="TH_x">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_x</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="TH_y">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_y</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="TH_z">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_z</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="TH_transx">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_transx</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="TH_transy">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_transy</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="TH_transz">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>TH_transz</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="SC_y">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>SC_y</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="SC_z">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>SC_z</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="SC_x">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>SC_x</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="AC_y">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>AC_y</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="AC_z">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>AC_z</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="AC_x">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>AC_x</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="GH_y">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>GH_y</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="GH_z">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>GH_z</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="GH_yy">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>GH_yy</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="EL_x">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>EL_x</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="PS_y">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>PS_y</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_deviation">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_deviation</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_flexion">
+				<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+				<appliesForce>true</appliesForce>
+				<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
+				<min_control>-inf</min_control>
+				<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
+				<max_control>inf</max_control>
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_flexion</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>100</optimal_force>
+			</CoordinateActuator>
+		</objects>
+		<groups />
+	</ForceSet>
+</OpenSimDocument>

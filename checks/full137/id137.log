@@ -1,0 +1,109 @@
+[info] Loaded model DAS3_clav_scap_orig from file /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/models/shoulder/das3_clav_scap_orig_PhD-Thelen.osim
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot (nr=10 nc=20)
+
+               MODEL: DAS3_clav_scap_orig
+         coordinates: 19
+              forces: 138
+           actuators: 138
+             muscles: 138
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 0
+             markers: 37
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[info] Running tool task03-pose.mot...
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot (nr=10 nc=10)
+[info] ExternalForce::externalforce Data source being set to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot (nr=10 nc=20)
+[info] InverseDynamicsTool: 10 time frames in 1 millisecond(s).
+[info] Loaded model DAS3_clav_scap_orig from file /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] AbstractTool DAS3 loading model ../models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Loaded model DAS3_clav_scap_orig from file ../models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Adding force object set from unlimitedreserves.xml
+[warning] Couldn't find file 'ground_ribs.vtp'.
+[warning] Couldn't find file 'ground_spine.vtp'.
+[warning] Couldn't find file 'ground_skull.vtp'.
+[warning] Couldn't find file 'ground_jaw.vtp'.
+[warning] Couldn't find file 'rclavicle.vtp'.
+[warning] Couldn't find file 'rscapula.vtp'.
+[warning] Couldn't find file 'rhumerus.vtp'.
+[warning] Couldn't find file 'rulna.vtp'.
+[warning] Couldn't find file 'rradius.vtp'.
+[warning] Couldn't find file 'r_hand.vtp'.
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot (nr=10 nc=10)
+[info] ExternalForce::externalforce Data source being set to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot
+[info] Loading coordinates from file '/Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot'.
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot (nr=10 nc=20)
+[info] Found 10 state vectors with time stamps ranging from 0.0 to 0.09.
+[info] Executing the analyses from 0.0 to 0.09...
+[warning] Couldn't find file 'ground_ribs.vtp'.
+[warning] Couldn't find file 'ground_spine.vtp'.
+[warning] Couldn't find file 'ground_skull.vtp'.
+[warning] Couldn't find file 'ground_jaw.vtp'.
+[warning] Couldn't find file 'rclavicle.vtp'.
+[warning] Couldn't find file 'rscapula.vtp'.
+[warning] Couldn't find file 'rhumerus.vtp'.
+[warning] Couldn't find file 'rulna.vtp'.
+[warning] Couldn't find file 'rradius.vtp'.
+[warning] Couldn't find file 'r_hand.vtp'.
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot (nr=10 nc=10)
+[info] ExternalForce::externalforce Data source being set to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot (nr=10 nc=10)
+[info] ExternalForce::externalforce Data source being set to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot
+time = 0.0 Performance = 3.86955 Constraint violation = 4.32969e-08
+[info] Bounds for 'TH_x': -inf to inf.
+[info] Bounds for 'TH_y': -inf to inf.
+[info] Bounds for 'TH_z': -inf to inf.
+[info] Bounds for 'TH_transx': -inf to inf.
+[info] Bounds for 'TH_transy': -inf to inf.
+[info] Bounds for 'TH_transz': -inf to inf.
+[info] Bounds for 'SC_y': -inf to inf.
+[info] Bounds for 'SC_z': -inf to inf.
+[info] Bounds for 'SC_x': -inf to inf.
+[info] Bounds for 'AC_y': -inf to inf.
+[info] Bounds for 'AC_z': -inf to inf.
+[info] Bounds for 'AC_x': -inf to inf.
+[info] Bounds for 'GH_y': -inf to inf.
+[info] Bounds for 'GH_z': -inf to inf.
+[info] Bounds for 'GH_yy': -inf to inf.
+[info] Bounds for 'EL_x': -inf to inf.
+[info] Bounds for 'PS_y': -inf to inf.
+[info] Bounds for 'wrist_deviation': -inf to inf.
+[info] Bounds for 'wrist_flexion': -inf to inf.
+time = 0.01 Performance = 3.86955 Constraint violation = 1.41768e-08
+time = 0.02 Performance = 3.86955 Constraint violation = 3.57596e-08
+time = 0.03 Performance = 3.86955 Constraint violation = 3.33833e-08
+time = 0.04 Performance = 3.86955 Constraint violation = 1.56574e-08
+time = 0.05 Performance = 3.86955 Constraint violation = 2.70434e-08
+time = 0.06 Performance = 3.86955 Constraint violation = 1.90136e-08
+time = 0.07 Performance = 3.86955 Constraint violation = 1.64871e-08
+time = 0.08 Performance = 3.86955 Constraint violation = 1.23924e-08
+time = 0.09 Performance = 3.86955 Constraint violation = 1.34117e-08
+[info] Printing results of investigation task03 to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03
+[info] AbstractTool DAS3 loading model ../models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Loaded model DAS3_clav_scap_orig from file ../models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Adding force object set from unlimitedreserves.xml
+[info] AbstractTool task03 loading model /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Loaded model DAS3_clav_scap_orig from file /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/models/shoulder/das3_clav_scap_orig_PhD-Thelen-nomuscles.osim
+[info] Adding force object set from ../../../../inputs/unlimitedreserves.xml
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot (nr=10 nc=10)
+[info] ExternalForce::externalforce Data source being set to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-loads.mot
+[info] Loading coordinates from file '/Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot'.
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03-pose.mot (nr=10 nc=20)
+[info] Found 10 state vectors with time stamps ranging from 0.0 to 0.09.
+[info] Executing the analyses from 0.0 to 0.09...
+[info] Loading actuator forces from file /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03_StaticOptimization_force.sto.
+[info] Storage: read data file = /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03_StaticOptimization_force.sto (nr=10 nc=29)
+[info] Found 28 actuator forces with time stamps ranging from 0.0to 0.09.
+[warning] The forces file contains actuators that are not in the model's actuator set.
+[warning] Ignoring fiber lengths and activations from the states since forces_file is also set. Actuator forces will be constructed from /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03/task03_StaticOptimization_force.sto.
+[info] Printing results of investigation task03 to /Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/checks/full137/outputs/task03
+/Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/utils.py:418: RuntimeWarning: invalid value encountered in true_divide
+  stability = gh_jrfs[i+1, :] / abs(gh_jrfs[0, :])
+/Users/mulladm/Documents/Manuscripts/PhD - M1/solnspace-2026-09-15/utils.py:418: RuntimeWarning: invalid value encountered in true_divide
+  stability = gh_jrfs[i+1, :] / abs(gh_jrfs[0, :])
+TH_x: -29.695, TH_y: -0.000, TH_z: -10.936, TH_transx: 0.000, TH_transy: 190.568, TH_transz: -0.000, SC_y: -0.000, SC_z: 2.403, SC_x: -20.512, AC_y: 4.720, AC_z: -17.122, AC_x: -10.163, GH_y: 6.258, GH_z: -19.771, GH_yy: 5.349, EL_x: -7.137, PS_y: 0.656, wrist_deviation: 4.605, wrist_flexion: 1.227
